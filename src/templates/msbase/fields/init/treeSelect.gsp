@@ -1,0 +1,1 @@
+msTreeInput("${lastName}Tree","\${request.getContextPath()}/public/selectTree",{domain:"${fieldClassName}"});

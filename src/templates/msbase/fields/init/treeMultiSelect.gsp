@@ -1,0 +1,1 @@
+msTreeCheckbox("${lastName}Tree","\${request.getContextPath()}/public/selectTree",{domain:"${fieldClassName}",select:"\${${propertyName}.${questionMarkName}?${propertyName}.${questionMarkName}*.id.join(','):''}" });

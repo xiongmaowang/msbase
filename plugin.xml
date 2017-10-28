@@ -1,0 +1,71 @@
+<plugin name='msbase' version='0.1' grailsVersion='2.5 &gt; *'>
+  <author>Your name</author>
+  <title>Msbase Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/msbase</documentation>
+  <type>MsbaseGrailsPlugin</type>
+  <resources>
+    <resource>BootStrap</resource>
+    <resource>MsbaseBootStrap</resource>
+    <resource>com.ms.LoginController</resource>
+    <resource>com.ms.LogoutController</resource>
+    <resource>com.ms.TableController</resource>
+    <resource>com.ms.UserController</resource>
+    <resource>com.ms.WebsoketTestController</resource>
+    <resource>com.ms.base.DepartController</resource>
+    <resource>com.ms.base.DictParamController</resource>
+    <resource>com.ms.base.ModelController</resource>
+    <resource>com.ms.base.NewsController</resource>
+    <resource>com.ms.base.ResourceController</resource>
+    <resource>com.ms.base.RoleController</resource>
+    <resource>com.ms.file.PublicController</resource>
+    <resource>com.ms.test.M1Controller</resource>
+    <resource>com.ms.test.M2Controller</resource>
+    <resource>com.ms.test.TestAController</resource>
+    <resource>com.ms.test.TestCController</resource>
+    <resource>com.ms.test.TestPController</resource>
+    <resource>com.ms.tree.TestTreeController</resource>
+    <resource>com.ms.tree.TestTreeDataController</resource>
+    <resource>com.ms.base.Ad</resource>
+    <resource>com.ms.base.Area</resource>
+    <resource>com.ms.base.Depart</resource>
+    <resource>com.ms.base.DictParam</resource>
+    <resource>com.ms.base.Group</resource>
+    <resource>com.ms.base.Model</resource>
+    <resource>com.ms.base.News</resource>
+    <resource>com.ms.base.Requestmap</resource>
+    <resource>com.ms.base.Resource</resource>
+    <resource>com.ms.base.Role</resource>
+    <resource>com.ms.base.RoleGroup</resource>
+    <resource>com.ms.base.Ueditor</resource>
+    <resource>com.ms.base.User</resource>
+    <resource>com.ms.base.UserResource</resource>
+    <resource>com.ms.base.UserRole</resource>
+    <resource>com.ms.file.AttachMent</resource>
+    <resource>com.ms.file.Directory</resource>
+    <resource>com.ms.sms.SmsLog</resource>
+    <resource>com.ms.sms.SystemLog</resource>
+    <resource>com.ms.test.M1</resource>
+    <resource>com.ms.test.M2</resource>
+    <resource>com.ms.test.TestA</resource>
+    <resource>com.ms.test.TestC</resource>
+    <resource>com.ms.test.TestD</resource>
+    <resource>com.ms.test.TestP</resource>
+    <resource>com.ms.tree.BoatArea</resource>
+    <resource>com.ms.system.SystemService</resource>
+    <resource>RemotePaginationTagLib</resource>
+    <resource>com.ms.msbase.DataTableTagLib</resource>
+    <resource>com.ms.msbase.MenuTagLib</resource>
+    <resource>com.ms.base.template.DefaultTemplateGenerator</resource>
+    <resource>com.ms.base.template.NameUtil</resource>
+    <resource>com.ms.base.template.TemplateUtil</resource>
+    <resource>com.ms.base.util.FieldAcl</resource>
+    <resource>com.ms.base.util.GridDataUtil</resource>
+    <resource>com.ms.base.util.GridTableUtil</resource>
+    <resource>com.ms.base.util.GridUtil</resource>
+    <resource>com.ms.base.util.LogUtil</resource>
+    <resource>com.ms.base.util.SystemUtil</resource>
+    <resource>com.ms.base.util.TreeUtil</resource>
+  </resources>
+</plugin>

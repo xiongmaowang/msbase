@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-color: grey;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+a:hover {
+  color: #FF0000;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+select {
+  -webkit-appearance: none;
+}
+input {
+  outline: 0;
+  resize: none;
+  font-size: 12px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+select::-ms-expand {
+  display: none;
+}
+/*适配不同屏幕下的电脑*/
+/*类的定义*/
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+  -webkit-appearance: none;
+  border: none;
+}
+body {
+  font: 14px "microsoft yahei", Arial, Helvetica, sans-serif, "新宋体", "宋体";
+  color: #555;
+  margin: 0;
+  table-layout: fixed;
+  word-break: break-all;
+  -webkit-font-smoothing: antialiased;
+}
+#login > img.fullBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.login_container > form {
+  width: 706px;
+  height: 334px;
+  border-radius: 16px;
+  background: #badef4;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -352px;
+  margin-top: -167px;
+  padding: 64px 114px 0px 114px;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(255, 255, 255, 0.2)));
+}
+.login_container > form > div {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  display: block;
+  content: "";
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+}
+.login_container > form > div > .login_left {
+  float: left;
+  width: 104px;
+  height: 40px;
+  font-size: 18px;
+}
+.login_container > form > div > .login_right {
+  float: left;
+}
+.login_container > form > div > .login_right > input {
+  display: inline-block;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #9dc9e2;
+  border-radius: 6px;
+  margin-left: -14px;
+  font-size: 14px;
+  padding-left: 14px;
+}
+.login_container > form > div > .login_right > input:hover {
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.login_container > form > div > .login_right > input:required:valid,
+.login_container > form > div > .login_right .contact_form textarea:required:valid {
+  background: #ffffff url(../images/valid.png) no-repeat 98% center;
+  box-shadow: 0 0 5px #5cd053;
+  border-color: #28921f;
+}
+.login_container > form > div > .login_right > input:focus:invalid,
+.login_container > form > div > .login_right .contact_form textarea:focus:invalid {
+  background: #ffffff url(../images/invalid.png) no-repeat 98% center;
+  box-shadow: 0 0 5px #d45252;
+  border-color: #b03535;
+}
+.login_container > form > .login_title {
+  width: 360px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 102px;
+  font-size: 16px;
+  color: #f00;
+  margin-top: -8px;
+  letter-spacing: 1px;
+}
+.login_container > form > .login_user > span > input {
+  background: #ffffff url(../images/login_user.png) no-repeat 95% center;
+}
+.login_container > form > .login_pwd > span > input {
+  background: #ffffff url(../images/login_pwd.png) no-repeat 95% center;
+}
+.login_container > form > .login_btn {
+  margin: 40px auto;
+  text-align: center;
+}
+.login_container > form > .login_btn > input {
+  position: relative;
+  display: inline-block;
+  padding-left: 5px;
+  width: 170px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  margin-top: -20px;
+  font-size: 24px;
+  letter-spacing: 10px;
+  border: 1px solid;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  border-color: #2f71a3 #265a82 #1e4766 #265a82;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  box-shadow: inset 0px -4px 5px rgba(255, 255, 255, 0.2), inset 0px 1px 5px rgba(255, 255, 255, 0.2), 0px 8px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px -4px 5px rgba(255, 255, 255, 0.2), inset 0px 1px 5px rgba(255, 255, 255, 0.2), 0px 8px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0px -4px 5px rgba(255, 255, 255, 0.2), inset 0px 1px 5px rgba(255, 255, 255, 0.2), 0px 8px 8px rgba(0, 0, 0, 0.5);
+}
+.login_container > form > .login_btn > input:hover {
+  background: #007d84;
+}
+.login_container > form > .login_btn > input:active {
+  top: 4px;
+  box-shadow: inset 0px 4px 5px rgba(255, 255, 255, 0.4), inset 0px -1px 5px rgba(255, 255, 255, 0.2), /**/ 0px 2px 0px #1e4766, /**/ 0px 4px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 4px 5px rgba(255, 255, 255, 0.4), inset 0px -1px 5px rgba(255, 255, 255, 0.2), /**/ 0px 2px 0px #1e4766, /**/ 0px 4px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0px 4px 5px rgba(255, 255, 255, 0.4), inset 0px -1px 5px rgba(255, 255, 255, 0.2), /**/ 0px 2px 0px #1e4766, /**/ 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.login_container > form > .login_btn > .login_control {
+  background-color: #8ac04f;
+  background-image: -webkit-linear-gradient(top, #8ac04f, #6aa72c);
+  background-image: -moz-linear-gradient(top, #8ac04f, #6aa72c);
+  background-image: -o-linear-gradient(top, #8ac04f, #6aa72c);
+  background-image: -ms-linear-gradient(top, #8ac04f, #6aa72c);
+  background-image: linear-gradient(top, #8ac04f, #6aa72c);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8ac04f, endColorstr=#6aa72c, GradientType='0');
+}
+.login_container > form > .login_btn > .login_set {
+  background-color: #58a6e9;
+  background-image: -webkit-linear-gradient(top, #58a6e9, #2065b5);
+  background-image: -moz-linear-gradient(top, #58a6e9, #2065b5);
+  background-image: -o-linear-gradient(top, #58a6e9, #2065b5);
+  background-image: -ms-linear-gradient(top, #58a6e9, #2065b5);
+  background-image: linear-gradient(top, #58a6e9, #2065b5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#58a6e9, endColorstr=#2065b5, GradientType='0');
+  margin-left: 80px;
+}
