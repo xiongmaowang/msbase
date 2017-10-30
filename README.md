@@ -49,5 +49,6 @@ create-domain-class +domain类的路径 :生成domain类
 
 3.运行 grails 命令 ms-generate-all com.ms.test.testA 在controllers文件夹中生成一个com.ms.test.TestAController,和views文件夹下的com/ms/test中生成一个编辑页面 和一个列表页面
 
-4.
+4.生成列表页面和 编辑保存页面如下
 ![image](http://note.youdao.com/yws/public/resource/408aea5707200ed0f1ff352e5f5579b8/xmlnote/AE818D289E5D40F08DF67A54B4C21DFE/19963) 
+![image](http://note.youdao.com/yws/public/resource/408aea5707200ed0f1ff352e5f5579b8/xmlnote/8E5BE4B3DC5840979EA4BDD355E813A9/19968) 
