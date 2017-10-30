@@ -18,6 +18,7 @@ import com.ms.systemEnum.MSActionType
 	@MSAction(actionType = MSActionType.DELETE  ),
 	@MSAction(actionType = MSActionType.TABLEVIEWSEARCH ,msFileds = [
 			@MSField(name = "testP",label="testPName" ),
+			@MSField(name = "testAName",label="testAName" ),
 	])
 ])
 @MSDomain(name = "A",controllerPackage = "com.ms.test",viewPackage = "com/ms/test")

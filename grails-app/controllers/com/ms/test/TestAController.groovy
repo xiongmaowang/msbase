@@ -1,5 +1,5 @@
 /**
- * 创建自 zmd on 2017-02-17.
+ * 创建自 xmw on 2017-10-30.
  */
 
 package com.ms.test
@@ -70,9 +70,12 @@ class TestAController {
             }
             json{
                 def query={map->
-                    println map
 					if(map.searchs["testP"]){
 						eq("testP.id",map.searchs["testP"])
+
+					}
+					if(map.searchs["testAName"]){
+						like("testAName","%${map.searchs["testAName"]}%")
 
 					}
                 }

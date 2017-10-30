@@ -18,38 +18,52 @@
                             
                             <!--搜索条件-->
                             <form>
-                            <div class="col-sm-10">
-                                <div class="form-group" style="width:100%;">
-                                    <div class="row user_div">
-                                        
-                                        <div class="col-md-3 col-sm-4">
-                                            <label>testPName:</label>
-											
-											<g:select name="testP"  optionKey="id" optionValue="testPName" class="chosen-select form-control search-input" target="testP"
-											   from="${com.ms.test.TestP.list()}"  noSelection="['':'--请选择--']"/>
+                            <div class="col-md-9">
+                                <div class="row user_div">
+                                    
+                                    <div class="col-md-4 col-sm-4">
+                                        <label style="width:100px;">testPName:</label>
+										
+										<g:select name="testP"  optionKey="id" optionValue="id" class="chosen-select form-control search-input " target="testP" style="width:196px;"
+										   from="${com.ms.test.TestP.list()}"  noSelection="['':'--请选择--']"/>
 
+                                    </div>
+                                    
+                                    <div class="col-md-4 col-sm-4">
+                                        <label style="width:100px;">testAName:</label>
+										<input type="text" class="form-control search-input" target="testAName"  placeholder="请输入testAName"/>
+
+                                    </div>
+                                    
+                                    <div class="col-md-4 col-sm-12 pull-right">
+                                        <div class="row">
+                                            <div class="col-md-8" style="padding:0;">
+                                                <div class="col-sm-6">
+                                                    <button class="btn btn-info btn-block search-button" type="button"  name="mySearch" id="mySearch">搜索</button>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <button class="btn btn-primary btn-block" type="reset">重置</button>
+                                                </div>
+                                            </div>
                                         </div>
-                                        
-                                        <input type="button" class="btn btn-info search-button" style="margin:0px 10px;" name="mySearch" id="mySearch"  value="搜索"/>
-                                        <button class="btn btn-success" type="reset" style="margin:0px 10px;">重置</button>
                                     </div>
                                 </div>
                             </div>
                             </form>
                                  
                             
-                            <div class="col-sm-2">
-                                <div class="row" style="margin-top: 2px;">
+                            <div class="col-md-3 col-sm-12">
+                                <div class="row" >
                                 
-                                    <div class="col-lg-6 col-sm-12">
-                                        <button class="btn btn-danger btn-md batch-del" url="${request.getContextPath()}/testA/testADelete"  style="margin-right:10px;" label="删除">
+                                    <div class="col-md-6 col-sm-12">
+                                        <button class="btn btn-danger btn-block batch-del" url="${request.getContextPath()}/testA/testADelete" label="删除">
                                             <span class="fa fa-edit"></span>
                                             批量删除
                                         </button>
                                     </div>
                                 
-                                    <div class="col-lg-6 col-sm-12">
-                                        <button class="btn btn-success btn-md add-button" url="${request.getContextPath()}/testA/testASaveView"   label="新增A">
+                                    <div class="col-md-6 col-sm-12">
+                                        <button class="btn btn-success btn-block add-button" url="${request.getContextPath()}/testA/testASaveView" label="新增A">
                                             <span class="fa fa-plus"></span>
                                             新增A
                                         </button>
